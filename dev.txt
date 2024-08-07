@@ -1,0 +1,17 @@
+Testing tsc-alias vs module-alias cause it seems more stable. Keeping this incase we ever have to revert.
+
+"_moduleAliases": {
+    "@models": "./dist/models",
+    "@models/*": "./dist/models/*",
+    "@controllers": "./dist/controllers",
+    "@controllers/*": "./dist/controllers/*",
+    "@services": "./dist/services",
+    "@services/*": "./dist/services/*",
+    "@routes": "dist/routes",
+    "@routes/*": "dist/routes/*",
+    "@configs": "dist/configs",
+    "@configs/*": "dist/configs/*",
+    "@interfaces": "dist/interfaces",
+    "@interfaces/*": "dist/interfaces/*",
+    "@utils/*": "dist/utils/*"
+  },
